@@ -1,0 +1,55 @@
+.rowLog{
+  float: left;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid black;
+}
+
+.containerlog{
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.colLog{
+  border: none;
+
+}
+
+.createLogWindow{
+  border: 1px solid black;
+  width: 100%;
+  float:left;
+  margin-top: 2%;
+  padding: 10px;
+  z-index: 0;
+}
+
+.rowDIV{
+  margin-bottom: 20px;
+}
+
+.rowHover:hover{
+  background-color: LightSteelBlue;
+  cursor: pointer;
+}
+
+.columnLogText{
+  font-weight: normal;
+  float: left;
+  width: inherit;
+  height: inherit;
+  text-align: auto;
+  padding-left: 5px;
+}
+
+.columnLogDateText{
+  font-weight: bold;
+  float: left;
+  width: inherit;
+  height: inherit;
+  text-align: auto;
+  padding-left: 5px;
+}

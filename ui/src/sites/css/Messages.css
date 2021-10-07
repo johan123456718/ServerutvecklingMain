@@ -1,0 +1,145 @@
+
+
+.row{
+  float: none;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border: 1px solid black;
+  justify-content: center;
+  margin: auto;
+  background-color: white;
+}
+
+.row-message{
+  float: none;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  border: none;
+  justify-content: center;
+  margin: auto;
+  background-color: white;
+}
+
+.container{
+  float: none;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.col{
+  border: none;
+  width: auto;
+  height: auto;
+  text-align: left;
+}
+
+.col-date{
+  border: none;
+  width: inherit;
+  height: auto;
+  text-align: right;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-messageIsRead{
+  border: 1px solid black;
+  width: 25%;
+  height: auto;
+  text-align: center;
+}
+
+.col-messageFromUser{
+  border: 1px solid black;
+  width: 100%;
+  font-size: 24px;
+  height: auto;
+  text-align: center;
+  margin-bottom: 0.5px;
+}
+
+.col-messageFromUser:hover{
+background-color: LightSteelBlue;
+cursor: pointer;
+}
+
+.col-messageFrom{
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+  text-align: left;
+}
+
+.col-messageFrom:hover{
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+  text-align: left;
+  background-color: LightSteelBlue;
+  cursor: grab;
+}
+
+.columnText{
+  font-weight: bold;
+  float: left;
+  width: inherit;
+  height: inherit;
+  text-align: auto;
+  padding-left: 5px;
+}
+
+.rowText{
+  font-weight: lighter;
+  float: none;
+  width: auto;
+  height: auto;
+  margin: none;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.itemText-message{
+  font-weight: normal;
+  font-size: 24px;
+  float: none;
+  width: auto;
+  height: auto;
+  margin: none;
+}
+
+.messageTextArea{
+width: 100%;
+height: auto;
+
+}
+
+.createMessageInputWindow{
+  align-content: center;
+  background-color: white;
+  border: 1px solid black;
+  width: 100%;
+  float:left;
+  margin-top: 2%;
+  padding: 10px;
+}
+
+.lefty{
+  float: left;
+  font-size: auto;
+  height: auto;
+  width: 5%;
+}
+
+.alert-green{
+  padding: 5px;
+  margin: 0;
+  min-height: 50px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #7ad474;
+  box-shadow: none;
+}

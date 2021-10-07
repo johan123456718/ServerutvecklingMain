@@ -1,0 +1,3 @@
+FROM mysql
+ENV MYSQL_ROOT_PASSWORD=root1234!
+COPY ./DB.sql .

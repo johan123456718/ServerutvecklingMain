@@ -1,0 +1,68 @@
+.rowUserLogs{
+  float: left;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid black;
+}
+
+
+.rowHover:hover{
+  background-color: LightSteelBlue;
+  cursor: pointer;
+}
+.startRowUserLogs{
+  float: none;
+  width: 33%;
+  height: auto;
+  text-align: center;
+  font-weight: normal;
+  border: 1px solid black;
+  margin: auto;
+  font-size: 24px;
+  justify-content: flex-start;
+  margin-bottom: 0.5px;
+  background-color: white;
+}
+.startRowUserLogs:hover{
+  background-color: LightSteelBlue;
+  cursor: pointer;
+}
+
+.containerUserLogs{
+  float: none;
+  width: auto;
+  height: auto;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.colUserLogs{
+  border: none;
+  width: auto;
+  height: auto;
+  text-align: left;
+}
+
+.itemText{
+  font-weight: normal;
+  float: none;
+  width: auto;
+  height: auto;
+  margin: none;
+}
+
+.rowDIV{
+  margin-bottom: 20px;
+}
+
+.columnUserLogText{
+  float: left;
+  width: inherit;
+  height: inherit;
+  text-align: auto;
+  padding-left: 5px;
+}
+
+.fontSizer{
+  font-size: 24px;
+}

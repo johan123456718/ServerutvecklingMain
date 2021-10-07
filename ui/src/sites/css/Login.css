@@ -1,0 +1,96 @@
+
+.flex-grid-loginPage{
+  display: flex;
+  margin-top: 150px;
+}
+
+.flex-grid-loginPage .col-flex-loginPage{
+  flex: 1;
+  width: 100%;
+}
+
+.login-form{
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  height: 100%;
+}
+.container-loginPage{
+  height: auto;
+  padding: 25px 30px;
+  background: #dce6f1;
+  min-width: 500px;
+  width: 35%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #000;
+}
+
+.redText{
+  color: red;
+}
+
+.text-muted{
+  color: none;
+}
+
+.loginText{
+  font-size: 25pt;
+}
+
+.loginButtonText{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobileButton{
+  width: 25%;
+  margin: 0;
+  font-family: "Arial Bold", Gadget, sans-serif;
+       font-style: normal;
+       font-size: 15px ! important;
+}
+
+.login-button-grp-single{
+  padding-left: 5px;
+  display: 1;
+  min-width: 5%
+}
+
+.btn-choiceButton{
+  display: flex;
+  box-shadow: none;
+  color: #000000;
+  background-color: #f2f2f2;
+  border-color: #000000
+}
+.btn-choiceButton:focus,
+.btn-choiceButton.focus {
+    box-shadow: 0 0 0 .1rem #000080
+}
+.btn-choiceButton.disabled,
+.btn-choiceButton:disabled {
+    color: #000000;
+    background-color: #000000;
+    border-color: #000000
+}
+.btn-choiceButton.hover,
+.btn-choiceButton:hover {
+    color: #000000;
+    background-color: #88c4fc;
+    border-color: #003180
+}
+.btn-choiceButton:not(:disabled):not(.disabled):active,
+.btn-choiceButton:not(:disabled):not(.disabled).active,
+.show>.btn-choiceButton.dropdown-toggle {
+    color: #000000;
+    background-color: #88c4fc;
+    border-color: #003180;
+    box-shadow: none
+}
+.btn-choiceButton:not(:disabled):not(.disabled):active:focus,
+.btn-choiceButton:not(:disabled):not(.disabled).active:focus,
+.show>.btn-choiceButton.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .0rem #800000
+}

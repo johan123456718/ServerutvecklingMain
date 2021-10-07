@@ -1,0 +1,4 @@
+Egna projekt för varje microservice *-Dessa i egen container-*
+node.js servern kan bara skapas i en ny .JS fil i UI delen *-Iframe-* **-Spara ner som antingen JSON, eller png/jpeg -**
+VertX har 3 olika sätt för icke-blockerande kod, worker, ..., ... *-Måste användas-* **-Worker är inte den smidigaste-**
+Apache Kafka very good, kommer komma i projektkursen som något coolt -Reine 2020
